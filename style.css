@@ -1,10 +1,133 @@
+@font-face {
+  font-family: 'Segoe UI Web';
+  src: url('/fonts/segoe-ui.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body{
     height: 100%;
     width: 100%;
+}
+
+header{
+    height: 54px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* margin-bottom: 2px; */
+    /* height: 54px; */
+    align-items: center;
+}
+
+nav .navleft{
+    display: flex;
+    /* background-color: red; */
+    height: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+    padding-bottom: 1px;
+}
+
+nav .navleft img{
+    width: 125px;
+    padding-left: 12px;
+}
+
+nav .navleft ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-thickness: 2px;
+}
+
+nav .navleft ul{
+    display: flex;
+    gap: 6px;
+    font-size: 13px;
+    height: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    list-style: none;
+    font-family: 'Segoe UI Web', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    
+}
+nav .navleft ul li{
+    /* display: inline-block; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav .navleft ul li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+nav .navright{
+    padding-bottom: 1px;
+    font-family: 'Segoe UI Web', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    font-size: 13px;
+    /* background-color: green; */
+    height: 100%;
+    align-items: center;
+    
+}
+
+nav .navright ul .liHover a:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-thickness: 2px;
+}
+
+nav .navright ul{
+    /* gap: 20px; */
+    display: flex;
+    height: 100%;
+    gap: 25px;
+    list-style: none;
+}
+
+nav .navright ul li{
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+nav .navright ul li a{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    /* list-style: none; */
+    color: black;
+    text-decoration: none;
 }
