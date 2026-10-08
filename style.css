@@ -193,3 +193,7 @@ main section .heading a{
     padding: 15px 16px;
     text-decoration: none;
 }
+
+main section .heading a:hover{
+    background-color: #D7D2CB;
+}
