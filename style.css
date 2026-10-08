@@ -128,7 +128,7 @@ nav .navright ul li a{
     text-decoration: none;
 }
 
-main section{
+main .headImage{
     cursor: pointer;
     height: 580px;
     background-image: url("productImage.avif");
@@ -139,7 +139,7 @@ main section{
     justify-content: center;
 }
 
-main section .heading{
+main .headImage .heading{
     /* background-color: red; */
     color: white;
     height: 52%;
@@ -149,18 +149,18 @@ main section .heading{
     gap: 20px;
 }
 
-main section .heading .wrap{
+main .headImage .heading .wrap{
     width: 45%;
 }
 
-main section .heading h1{
+main .headImage .heading h1{
     font-family: "Nunito Sans", sans-serif;
     font-weight: 500;
     font-size: 45px;
     line-height: 50px;
 }
 
-main section .heading .new{
+main .headImage .heading .new{
     display: inline-block;
     cursor: default;
     font-family: "Nunito Sans", sans-serif;
@@ -172,14 +172,14 @@ main section .heading .new{
     width: fit-content;
 }
 
-main section .heading .para{
+main .headImage .heading .para{
     font-family: "Nunito Sans", sans-serif;
     width: 40%;
     font-weight: 300;
     /* font-size: 16px; */
 }
 
-main section .heading a{
+main .headImage .heading a{
     font-family: "Nunito Sans", sans-serif;
     /* text-shadow: 0 0 5px black; */
     font-weight: 700;
@@ -194,6 +194,82 @@ main section .heading a{
     text-decoration: none;
 }
 
-main section .heading a:hover{
+main .headImage .heading a:hover{
     background-color: #D7D2CB;
 }
+
+main .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+main .links .linkShop{
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    cursor: pointer;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight:700;
+    font-size:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #263E65;
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
+    text-decoration-thickness: 2px;
+}
+
+main .links .linkXBOX{
+    font-family: "Nunito Sans", sans-serif;
+    gap: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:700;
+    font-size:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #263E65;
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
+    text-decoration-thickness: 2px;
+}
+
+main .links .linkWin11{
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:700;
+    font-size:15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: #263E65;
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
+    text-decoration-thickness: 2px;
+}
+
+main .links .linkSur{
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:700;
+    font-size:15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: #263E65;
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
+    text-decoration-thickness: 2px;
+}
+
