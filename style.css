@@ -273,3 +273,80 @@ main .links .linkSur{
     text-decoration-thickness: 2px;
 }
 
+
+
+main .cards{
+    font-family: "Nunito Sans", sans-serif;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    gap: 17px;
+    width: 100%;
+    /* padding-top: 20px; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+main .cards .cardBox{
+    width: 21.6%;
+    height: 86%;
+    background-color: white;
+    display: inline-block;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* align-items: center; */
+
+    padding: 8px 8px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-betweenss; */
+    border-radius: 25px;
+    /* border: 0.566667px solid black; */
+    box-shadow: 0 2px 5px rgba(132, 132, 132, 0.352);
+}
+
+main .cards .cardBox:hover{
+    box-shadow: 0 2px 10px rgba(115, 115, 115, 0.352);
+}
+
+main .cards .cardBox img{
+    border-radius: 18px;
+    width: 100%
+}
+
+main .cards .cardBox h2{
+    /* padding: 20px 20px; */
+    font-size: 20px;
+}
+
+main .cards .cardBox p{
+    /* padding: 20px 20px; */
+    font-size: 15px;
+}
+
+main .cards .cardBox a{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    background-color: #007bd9;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    /* justify-items:end; */
+    width: fit-content;
+}
+
+main .cards .cardBox a:hover{
+    background-color: #006DC1;
+}
+
+main .cards .cardBox .cardBoxIn{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 59%;
+    /* background-color: red;; */
+}
