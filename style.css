@@ -166,6 +166,16 @@ main .headImage .heading h1{
     line-height: 50px;
 }
 
+.headImageRes img{
+    width: 100%;
+    /* display: none; */
+}
+
+.headImageRes{
+    width: 100%;
+    display: none;
+}
+
 main .headImage .heading .new{
     display: inline-block;
     cursor: default;
@@ -458,7 +468,7 @@ footer ul li:hover{
         flex-shrink: 0;
         /* background-color: red; */
         display: flex;
-
+        
         gap: 20px;
         align-items: center;
         /* height: 100%;
@@ -486,7 +496,7 @@ footer ul li:hover{
         width: auto;
         /* text-align: end; */
         flex: 1;
-
+        
         flex-shrink: 1;
         display: flex;
         justify-content: end;
@@ -502,4 +512,80 @@ footer ul li:hover{
         color: black;
         /* width: 100px; */
     }
+    
+    .headImage{
+        display: none !important;
+    }
+    .headImageRes{
+        display: inline-block;
+    }
+    
+    .headImageRes div.heading{
+        background: linear-gradient(
+        110deg,
+        #071e29 0%,
+        #062f49 45%,
+        #06436b 100%
+    );
+    }
+    
+    main .headImageRes .heading .new{
+        display: inline-block;
+        cursor: default;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 600;
+        padding: 6px 13px;
+        color: black;
+        background-color: #FFB900;
+        border-radius: 5px;
+        width: fit-content;
+    }
+    
+    main .headImageRes .heading .para{
+        font-family: "Nunito Sans", sans-serif;
+        /* width: 40%; */
+        font-weight: 300;
+        /* font-size: 16px; */
+    }
+    
+    main .headImageRes .heading a{
+        font-family: "Nunito Sans", sans-serif;
+        /* text-shadow: 0 0 5px black; */
+        font-weight: 700;
+        font-size:14px;
+        border-radius: 10px;
+        margin-top: 10px;
+        display: inline-block;
+        background-color: white;
+        color: black;
+        width: fit-content;
+        padding: 15px 16px;
+        text-decoration: none;
+    }
+    
+    main .headImageRes .heading a:hover{
+        background-color: #D7D2CB;
+    }
+
+    main .headImageRes .heading{
+        /* background-color: red; */
+        color: white;
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding: 60px 100px 60px 100px;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    main .headImageRes .heading h1{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+@media{
+    
 }
